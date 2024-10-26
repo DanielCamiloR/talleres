@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora en Tiempo Real</title>
+</head>
+<body>
+    <h2>Calculadora en Tiempo Real</h2>
+    <form id="calculatorForm">
+        <label for="num1">Numero 1</label>
+        <input type="float" id="num1" name="num1" required><br><br>
+        <label for="num2">Numero 2</label>
+        <input type="float" id="num2" name="num2" required><br><br>
+        <label for="op">Operador</label>
+        <input type="text" id="op" name="op" required><br><br>
+ 
+        <button type="button" onclick="calculadora()">Calcular</button>
+ 
+        <label>Resultado:</label>
+        <input type="text" id="result" name="result" readonly><br><br>
+    </form>
+    <script src="parcial.js"></script>
+</body>
+</html>
